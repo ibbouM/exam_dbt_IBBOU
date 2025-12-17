@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: exam_snowflake_db
+    database: EXAM_SNOWFLAKE_DB
+    schema: PUBLIC
+    tables: 
+      - name: album
+      - name: artist
+      - name: genre
+      - name: mediatype
+      - name: playlist
+      - name: playlisttrack
+      - name: track
+    
+
